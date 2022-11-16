@@ -129,6 +129,7 @@ nav{
 
 .skills{
     background: url(../img/bg2.jpg) center/cover no-repeat;
+    height: 625px;
 }
 .skills_container{
     width: 1094px;
@@ -256,6 +257,7 @@ nav{
 }
 .calculator_container{
     width: 1080px;
+    height: 750px;
     -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
@@ -266,7 +268,7 @@ nav{
 .calculator_container h2{
      text-align: center;
     width: 358px;
-    font-size: 43px;
+    font-size: 30px;
     margin: 0px auto 50px;
     
 }
@@ -277,7 +279,7 @@ nav{
 }
 
 .calculator_container h3{
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
@@ -292,7 +294,6 @@ nav{
     width: 100%;
     margin: 0 auto 24px;
 }
-
 .mySelect{
     display: block;
     width: 890px;
@@ -305,7 +306,20 @@ nav{
     appearance: none;
     background:  url(../img/select.png) 98% 54%/auto no-repeat, #eee;
 }
-
+.days, .a{
+    float: left;
+    width: 900px;
+}
+.days, .b{
+    float: right;
+}
+.price, .c{
+    float: left;
+    width: 900px;
+}
+.price, .d{
+    float: right;
+}
 .days, .price{
     margin-bottom: 18px;
     font-size: 21px;
