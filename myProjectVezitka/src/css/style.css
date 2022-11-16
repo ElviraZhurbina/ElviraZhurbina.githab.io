@@ -1,4 +1,3 @@
-
 body{
     font-family: Arial, sans-serif;
 }
@@ -6,48 +5,65 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
-
 }
+
 .logo{
+    float: left;
     color: #fff;
     font-size: 20px;
     line-height: 60px;
     padding-left: 150px;
-    float: left;
 }
+
 .menu{
     float: left;
     padding-left: 400px;
+    
 }
+
 .menu li{
     float: left;
+    font-size: 16px;
+    color: white;
     line-height: 60px;
-    color: #fff;
     margin-right: 40px;
-    font-size: 15px;
     text-transform: uppercase;
 }
+
+.menu li a:visited{
+    color: white;
+}
+
 .main{
     width: 100%;
     height: calc(100% - 10px);
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+
 }
 .title__container{
     float: left;
     margin: 300px 0px 0px 300px;
     color: #2c384a;
     text-align: center;
+  
 }
+
+
 .title__container h1{
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
     font-weight: bold;
 }
+
 .title__container h4{
-   margin-top: 40px;
-   font-size: 20px;
-    color: #79818d
+    color: #79818d;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
 }
+
 .title__container input{
+    width: 96px;
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -55,64 +71,70 @@ nav{
     border-radius: 5px;
     color: #6d7682;
     font-size: 13px;
-    padding: 0px 16px;
+    cursor: pointer;
     margin: 50px 14px 0px 14px;
 }
+
 .about_me_container h2{
     text-align: center;
-    width: 150px;
-    font-size: 30px;
-    margin: 10px auto;
-    padding-bottom: 7px;
+    width: 156px;
+    font-size: 33px;
+    margin: 110px auto 30px;
+    padding-bottom: 5px;
     text-transform: uppercase;
+    
+}
+
+.about_me_container{
+    width: 740px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.about_me_container img{
+    display: block;
+    margin: 0 auto;
 }
 .about_me_container hr{
     height: 4px;
     border: none;
     background: #d17700;
-    width: 50px;
-    margin: 0px auto;
+    width: 80px;
+    margin: 0 auto 60px;
 }
-.about_me_container{
-    text-align: left;
-    width: 700px;
-    margin: 0 auto;
+
+.about_me_container p{
+    margin-top: 24px;
+    font-size: 17px;
+    
 }
-.about_me_container img{
-    display: block;
-    margin: 40px auto;
+
+.about_me_container .secondText{
+    margin-top: 45px;
 }
-.about_me_container .topText{
-    margin-top: 15px; 
-}
-.about_me_container .daunText{
-    margin-top: 15px;
-}
+
 .about_me_container a{
     display: block;
     width: 162px;
     height: 33px;
     text-align: center;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 8px;
     line-height: 30px;
     margin: 40px auto 0;
-    font-size: 15px;
+    font-size: 16px;
     background: url(../img/input.png) 6%/auto no-repeat;
-    padding-left: 15px;
+    padding-left: 18px;
     
 }
 
-.skills {
-    width: 100%;
-    height: calc(100% - 10px);
+.skills{
     background: url(../img/bg2.jpg) center/cover no-repeat;
 }
 .skills_container{
-    width: 1090px;
+    width: 1094px;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 90px;
+    padding-top: 110px;
+    padding-bottom: 96px;
 }
 .skills_container h2{
     text-align: center;
@@ -127,13 +149,8 @@ nav{
     height: 4px;
     border: none;
     background: #d17700;
-    width: 50px;
+    width: 80px;
     margin: 0 auto 100px;
-}
-}
-.statistic_container{
-    width: 900px;
-    margin: 0 auto;
 }
 .skills_item{
     float: left;
@@ -141,11 +158,23 @@ nav{
     text-align: center;
     margin: 0 36px;
 }
-.statistic {
-    width: 100%;
-    height: calc(100% - 10px);
-    background: url(../img/bg3.jpg) center/cover no-repeat;
+
+.skills_item img{
+    margin-bottom: 40px;
+    height: 40px;
 }
+.skills_item h3{
+    font-size: 18px;
+    color: #cf7600;
+    margin-bottom: 20px;
+}
+.skills_item p{
+    font-size: 16px;
+}
+.clear{
+    clear:both;
+}
+
 .portfolio{
     padding-top: 110px;
     padding-bottom: 128px;
@@ -170,8 +199,8 @@ nav{
     height: 4px;
     border: none;
     background: #d17700;
-    width: 50px;
-    margin: 0px auto;
+    width: 80px;
+    margin: 0 auto 40px;
 }
 
 .portfolio_subscription{
@@ -184,6 +213,7 @@ nav{
     width: 100%;
     margin-bottom: 40px;
 }
+
 .description_left{
     width: 200px;
     float: left;
@@ -208,8 +238,8 @@ nav{
     line-height: 44px;
     text-align: center;
     color: white;
-    font-size: 25px;
-    border-radius: 10px;
+    font-size: 20px;
+    border-radius: 8px;
     
 }
 .description_right h4{
@@ -217,8 +247,12 @@ nav{
     margin-bottom: 10px;
 }
 .description_right p{
-    font-size: 21px;
+    font-size: 20px;
 
+}
+
+.calculator{
+    padding-bottom: 84px;
 }
 .calculator_container{
     width: 1080px;
@@ -236,25 +270,25 @@ nav{
     margin: 0px auto 50px;
     
 }
-.calculator_inner{
-    width: 890px;
+.calculator_container{
+    width: 900px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
 
-.calculator_inner h3{
-    font-size: 29px;
+.calculator_container h3{
+    font-size: 30px;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
-.calculator_inner select{
+.calculator_container select{
     margin-bottom: 44px;
 }
 
-.calculator_inner hr{
-    height: 2px;
+.calculator_footer hr{
+    height: 3px;
     border: none;
-    background: #eee;
+    background: #4a4444;
     width: 100%;
     margin: 0 auto 24px;
 }
@@ -269,7 +303,7 @@ nav{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background:  url(../img/select.png) 98% 54%/auto no-repeat, #aaa;
+    background:  url(../img/select.png) 98% 54%/auto no-repeat, #eee;
 }
 
 .days, .price{
@@ -286,6 +320,10 @@ nav{
     font-size: 29px;
     float: right;
 }
+.calculator_footer hr{
+    color: darkgray;
+}
+
 .statistic{
     background: url(../img/bg3.jpg) center/cover no-repeat;
 }
@@ -311,8 +349,8 @@ nav{
     height: 4px;
     border: none;
     background: #d17700;
-    width: 50px;
-    margin: 0px auto;
+    width: 80px;
+    margin: 0 auto 90px;
 }
 
 
@@ -361,8 +399,8 @@ nav{
     height: 4px;
     border: none;
     background: #d17700;
-    width: 50px;
-    margin: 0px auto;
+    width: 80px;
+    margin: 0 auto 60px;
 }
 
 .review{
@@ -441,10 +479,10 @@ nav{
 }
 
 .contacts_container h3{
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 46px;
-    font-size: 21px;
+    margin-top: 100px;
+    text-align: 50% 50%;
+    margin-bottom: 40px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -517,5 +555,4 @@ nav{
     line-height: 94px;
     color: white;
 }
-
 
