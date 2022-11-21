@@ -5,6 +5,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
 }
 
 .logo{
@@ -13,6 +14,9 @@ nav{
     font-size: 20px;
     line-height: 60px;
     padding-left: 150px;
+    -webkit-animation: comming 4s ;
+    -o-animation: comming 4s ;
+    animation: comming 4s ;
 }
 
 .menu{
@@ -28,15 +32,28 @@ nav{
     line-height: 60px;
     margin-right: 40px;
     text-transform: uppercase;
+    -webkit-animation: topshif 0.4;
+    -o-animation: topshif 0.4;
+    animation: topshif 0.4;
 }
 
+.menu li a:{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
 .menu li a:visited{
     color: white;
+}
+.menu li a:hover {
+    color: #e88004;
+    transform: scaleY(1.1);
 }
 
 .main{
     width: 100%;
-    height: calc(100% - 10px);
+    height: 100%;
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 
 }
@@ -73,6 +90,32 @@ nav{
     font-size: 13px;
     cursor: pointer;
     margin: 50px 14px 0px 14px;
+    transition: all 0.2s;
+}
+.title__container input:hover {
+    background: #344051;
+    color: white;
+}
+.title__container input:active {
+    transform: scale(1.1);
+}
+@keyframes comming {
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes topshif {
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
 }
 
 .about_me_container h2{
@@ -93,7 +136,16 @@ nav{
 .about_me_container img{
     display: block;
     margin: 0 auto;
+    animation: show 3s;
 }
+@keyframes show {
+    from{margin-left: -700px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
 .about_me_container hr{
     height: 4px;
     border: none;
@@ -126,6 +178,14 @@ nav{
     padding-left: 18px;
     
 }
+.about_me_container a:visited{
+    color: black;
+}
+.about_me_container a:hover {
+    color: greenyellow;
+    transform: scaleY(1.1);
+}
+
 
 .skills{
     background: url(../img/bg2.jpg) center/cover no-repeat;
@@ -243,6 +303,13 @@ nav{
     border-radius: 8px;
     
 }
+.description_left a:visited{
+    color: white;
+}
+.description_left a:hover {
+    color:#4a4444 ;
+    transform: scaleY(1.1);
+}
 .description_right h4{
     font-size: 25px;
     margin-bottom: 10px;
@@ -340,6 +407,7 @@ nav{
 
 .statistic{
     background: url(../img/bg3.jpg) center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -423,6 +491,13 @@ nav{
 
 .review img{
     margin-bottom: 36px;
+}
+.dif {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    perspective-origin: center;
+    perspective: 300px;
 }
 
 .review_text{
@@ -537,6 +612,13 @@ nav{
     border-radius: 8px;
     font-size: 20px;
     margin-bottom: 76px;
+}
+.contacts_container input:hover {
+    background: #344051;
+    color: white;
+}
+.contacts_container input:active {
+    transform: scale(1.1);
 }
 
 .contacts_social{
